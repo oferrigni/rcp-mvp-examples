@@ -4,4 +4,6 @@ Bundle-Name: View
 Bundle-SymbolicName: pizza.chooser.view
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Require-Bundle: pizza.chooser.presenter;bundle-version="1.0.0";visibility:=reexport
+Require-Bundle: pizza.chooser.presenter;bundle-version="1.0.0";visibility:=reexport,
+ org.eclipse.ui;bundle-version="3.5.2"
+Export-Package: pizza.chooser.view

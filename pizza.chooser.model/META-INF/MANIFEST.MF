@@ -4,3 +4,4 @@ Bundle-Name: Pizza Chooser Model
 Bundle-SymbolicName: pizza.chooser.model
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: pizza.chooser.model
