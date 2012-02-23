@@ -17,7 +17,11 @@ public class ApplicationPresenter implements IApplicationModelListener {
 
 	public void init() {
 		applicationModel.registerApplicationModelListener(this);
-		applicationView.layout();
+		applicationView.layout(this);
+	}
+
+	public void applicationViewLayedOut() {
+		
 	}
 
 }

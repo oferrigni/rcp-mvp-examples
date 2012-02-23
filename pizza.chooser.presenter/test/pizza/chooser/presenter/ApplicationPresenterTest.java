@@ -16,6 +16,6 @@ public class ApplicationPresenterTest {
 		testObject.init();
 		
 		Mockito.verify(mockModel).registerApplicationModelListener(testObject);
-		Mockito.verify(mockView).layout();
+		Mockito.verify(mockView).layout(testObject);
 	}
 }
