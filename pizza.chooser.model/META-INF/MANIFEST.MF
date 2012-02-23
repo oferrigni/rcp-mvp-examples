@@ -71,3 +71,5 @@ Export-Package: org.hamcrest,
  org.objenesis.instantiator.sun,
  org.objenesis.strategy,
  pizza.chooser.model
+Bundle-ClassPath: .,
+ test-libs/mockito-all-1.9.0.jar

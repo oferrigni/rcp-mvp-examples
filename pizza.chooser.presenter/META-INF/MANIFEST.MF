@@ -4,6 +4,7 @@ Bundle-Name: Pizza Chooser Presenter
 Bundle-SymbolicName: pizza.chooser.presenter
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Require-Bundle: pizza.chooser.model;bundle-version="1.0.0";visibility:=reexport
+Require-Bundle: pizza.chooser.model;bundle-version="1.0.0";visibility:=reexport,
+ org.junit
 Export-Package: pizza.chooser.presenter,
  pizza.chooser.presenter.viewinterfaces
